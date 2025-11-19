@@ -6,6 +6,39 @@ Este projeto propõe um sistema multimodal capaz de identificar manipulações a
 
 ---
 
+## Índice
+- [Resumo](#resumo)
+- [1. Motivação](#1-motivação)
+- [2. Objetivos](#2-objetivos)
+- [3. Base Teórica](#3-base-teórica)
+  - [3.1 Deepfakes](#31-deepfakes)
+  - [3.2 Linguagem Natural](#32-linguagem-natural)
+  - [3.3 Fusão Multimodal](#33-fusão-multimodal)
+- [4. Metodologia](#4-metodologia)
+- [5. Arquitetura](#5-arquitetura)
+  - [5.1 Módulo Visual](#51-módulo-visual)
+  - [5.2 Módulo de Linguagem](#52-módulo-de-linguagem)
+  - [5.3 Fusão de Previsões](#53-fusão-de-previsões)
+  - [5.4 API](#54-api)
+  - [5.5 Dashboard](#55-dashboard)
+- [6. Experimentos](#6-experimentos)
+- [7. Resultados Esperados](#7-resultados-esperados)
+- [8. Limitações](#8-limitações)
+- [9. Ética](#9-ética)
+- [10. Como Executar](#11-como-executar)
+  - [10.1 Clonar o repositório](#111-clonar-o-repositório)
+  - [10.2 Criar ambiente virtual](#112-criar-ambiente-virtual)
+  - [10.3 Instalar dependências](#113-instalar-dependências)
+  - [10.4 Executar API](#114-executar-api)
+  - [10.5 Executar Dashboard](#115-executar-dashboard)
+- [11. Licença](#12-licença)
+- [Contribuições](#contribuições)
+
+---
+
+
+---
+
 # 1. Motivação
 Deepfakes baratearam a criação de golpes.  
 Usuários comuns não conseguem distinguir o real do falso.  
@@ -172,13 +205,13 @@ pip install -r requirements.txt
 uvicorn src.api.main:app --reload
 ```
 
-### 11.5 Executar Dashboard
+### 10.5 Executar Dashboard
 
 ```bash
 python src/dashboard/app.py
 ```
 
-### 12. Licença
+### 11. Licença
 
 MIT — com cláusula de proibição de uso malicioso.
 
