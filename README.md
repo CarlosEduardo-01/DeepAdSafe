@@ -1,5 +1,7 @@
 # DeepAdSafe: Detecção de Fraudes em Anúncios com Deepfakes
 
+## Projeto em Andamento
+
 ## Resumo
 A proliferação de deepfakes em anúncios pagos transformou golpes online em um problema crescente.  
 Este projeto propõe um sistema multimodal capaz de identificar manipulações audiovisuais e padrões linguísticos usados em anúncios fraudulentos.
